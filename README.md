@@ -55,5 +55,3 @@ As of October 2026, Fall 2026 independent-study delivery is ongoing. Spring 2027
 ## Contact
 
 Dr. Atdhe Buja · abuja@commonwealthu.edu · [atdheb.com](https://www.atdheb.com)
-
-[Reuse and attribution notice](NOTICE.md)
