@@ -1,0 +1,5 @@
+event_id,timestamp_utc,host,source_type,user,activity,detail,context
+W01,2026-09-01T13:00:00Z,WIN-LAB-01,process,maintenance-demo,powershell.exe,powershell.exe -File C:\Lab\approved-update.ps1,Approved maintenance entry supplied for comparison
+W02,2026-09-01T13:06:00Z,WIN-LAB-01,process,student-demo,powershell.exe,powershell.exe -File C:\Users\student-demo\AppData\Local\Temp\lab-demo.ps1,Purpose not documented in fixture
+W03,2026-09-01T13:07:00Z,WIN-LAB-01,scheduled_task,student-demo,LabDemoTask,Action references C:\Users\student-demo\AppData\Local\Temp\lab-demo.ps1,Task registration record; execution at reboot not supplied
+W04,2026-09-01T13:08:00Z,WIN-LAB-01,network,student-demo,outbound_connection,Destination 192.0.2.50:443,No payload or attribution supplied

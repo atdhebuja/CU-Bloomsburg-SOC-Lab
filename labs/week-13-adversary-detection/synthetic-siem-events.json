@@ -1,0 +1,23 @@
+{
+  "schema": "portfolio-simplified-events-v1",
+  "evidence_origin": "synthetic",
+  "not_native_wazuh_export": true,
+  "events": [
+    {
+      "event_id": "S01",
+      "timestamp_utc": "2026-09-01T14:00:02Z",
+      "target": "LIN-LAB-02",
+      "observed_command": "uname -a",
+      "alert_generated": true,
+      "description": "Illustrative lab rule matched system information command"
+    },
+    {
+      "event_id": "S02",
+      "timestamp_utc": "2026-09-01T14:01:02Z",
+      "target": "LIN-LAB-02",
+      "observed_command": "whoami",
+      "alert_generated": false,
+      "description": "Illustrative collected command event without alert"
+    }
+  ]
+}

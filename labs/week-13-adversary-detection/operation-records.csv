@@ -1,0 +1,4 @@
+operation_id,timestamp_utc,target,command,execution_status,evidence_origin
+OP01,2026-09-01T14:00:00Z,LIN-LAB-02,uname -a,success,synthetic
+OP02,2026-09-01T14:01:00Z,LIN-LAB-02,whoami,success,synthetic
+OP03,2026-09-01T14:02:00Z,LIN-LAB-02,ip addr show,success,synthetic

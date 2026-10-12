@@ -1,0 +1,5 @@
+event_id,timestamp_utc,host,source_type,user,activity,detail,context
+L01,2026-09-01T13:01:00Z,LIN-LAB-01,authentication,demo-user,ssh_login_failed,Source 198.51.100.25,Fictional documentation address
+L02,2026-09-01T13:01:10Z,LIN-LAB-01,authentication,demo-user,ssh_login_failed,Source 198.51.100.25,Second failure; insufficient alone to establish brute force
+L03,2026-09-01T13:04:00Z,LIN-LAB-01,authentication,demo-user,ssh_login_success,Source 198.51.100.25,Authorization context not supplied
+L04,2026-09-01T13:05:00Z,LIN-LAB-01,process,demo-user,shell_execution,sh /tmp/lab-demo.sh,No script content supplied; do not infer reverse shell
